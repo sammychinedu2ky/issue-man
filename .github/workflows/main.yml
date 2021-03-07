@@ -1,4 +1,4 @@
-name: mynodeflow
+name: issue-man
 'on':
   issue_comment:
     types:
