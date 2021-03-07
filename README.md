@@ -6,7 +6,7 @@
 
 # GitHub Issues Management Action
 
-This action warns users when adult content is posted
+This action warns a user when an adult content(image) is posted by the user as a comment under GitHub issues
 
 ## Inputs
 
