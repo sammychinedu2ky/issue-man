@@ -24,7 +24,7 @@ This action warns users when adult content is posted
 ```
 ## Example usage
 ```
-uses: sammychinedu2ky/issue-man@main
+uses: sammychinedu2ky/issue-man@v1
 with:
   myToken: '${{ secrets.GITHUB_TOKEN }}'
   key: '${{secrets.KEY}}'
