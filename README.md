@@ -1,7 +1,7 @@
 
 # issue-man
 
-[![mynodeflow](https://github.com/sammychinedu2ky/meflow/actions/workflows/main.yml/badge.svg)](https://github.com/sammychinedu2ky/meflow/actions/workflows/main.yml)
+[![mynodeflow](https://github.com/sammychinedu2ky/issue-man/actions/workflows/main.yml/badge.svg)](https://github.com/sammychinedu2ky/issue-man/actions/workflows/main.yml)
 
 
 # GitHub Issues Management Action
