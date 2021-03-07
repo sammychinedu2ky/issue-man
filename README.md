@@ -3,7 +3,7 @@
 
 [![mynodeflow](https://github.com/sammychinedu2ky/meflow/actions/workflows/main.yml/badge.svg)](https://github.com/sammychinedu2ky/meflow/actions/workflows/main.yml)
 
-```markdown
+
 # GitHub Issues Management Action
 
 This action warns users when adult content is posted
@@ -21,7 +21,8 @@ This action warns users when adult content is posted
 ### `endpoint`
 
 **Required** The endpoint of your Azure Computer Vision Resource.
-```
+
+
 ## Example usage
 ```
 uses: sammychinedu2ky/issue-man@v1
