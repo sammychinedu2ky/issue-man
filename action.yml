@@ -1,5 +1,5 @@
 name: An issue moderation bot
-description: ' Warn users when adult content is posted'
+description: ' Warns users when adult content is posted'
 branding:
   icon: anchor
   color: green
