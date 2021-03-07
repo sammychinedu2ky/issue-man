@@ -1,0 +1,25 @@
+{
+  "name": "meflow",
+  "version": "1.0.0",
+  "description": "[![mynodeflow](https://github.com/chaiforc7/meflow/actions/workflows/main.yml/badge.svg)](https://github.com/chaiforc7/meflow/actions/workflows/main.yml)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaiforc7/meflow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaiforc7/meflow/issues"
+  },
+  "homepage": "https://github.com/chaiforc7/meflow#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
+    "@azure/cognitiveservices-computervision": "^7.1.0"
+  }
+}

@@ -1,0 +1,18 @@
+name: An issue moderation bot
+description: ' Warn users when adult content is posted'
+branding:
+  icon: anchor
+  color: green
+inputs:
+  myToken:
+    description: Your GitHub Token
+    required: true
+  key:
+    description: The Key of your Azure Computer Vision Resource
+    required: true
+  endpoint:
+    description: The endpoint of your Azure Computer Vision Resource
+    required: true
+runs:
+  using: node12
+  main: index.js
