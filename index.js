@@ -34,7 +34,7 @@ async function run() {
                     owner: context.issue.owner,
                     repo: context.issue.repo,
                     issue_number: context.issue.number,
-                    body: `@${context.actor} Pleae delete the adult content \r\n![warn](https://user-images.githubusercontent.com/36219292/110226853-be033a00-7ef2-11eb-802e-c7f6007fe7af.png)\r\n`,
+                    body: `@${context.actor} Please delete the adult content \r\n![warn](https://user-images.githubusercontent.com/36219292/110226853-be033a00-7ef2-11eb-802e-c7f6007fe7af.png)\r\n`,
                 });
                 break;
             }
