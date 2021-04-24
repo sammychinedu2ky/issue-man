@@ -32,12 +32,12 @@ async function run() {
             console.log(
                 'sammychinedu',JSON.stringify(adult)
             )
-            if (adult.isAdultContent) {
+            if (adult.isGoryContent) {
                 const data = await octokit.issues.createComment({
                     owner: context.issue.owner,
                     repo: context.issue.repo,
                     issue_number: context.issue.number,
-                    body: `@${context.actor} Please delete the adult content \r\n![warn](https://user-images.githubusercontent.com/36219292/110226853-be033a00-7ef2-11eb-802e-c7f6007fe7af.png)\r\n`,
+                    body: `@${context.actor} Please delete this gory content \r\n![warn](https://user-images.githubusercontent.com/36219292/110226853-be033a00-7ef2-11eb-802e-c7f6007fe7af.png)\r\n`,
                 });
                 break;
             }
