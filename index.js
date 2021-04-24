@@ -29,6 +29,7 @@ async function run() {
             const adult = (await computerVisionClient.analyzeImage(link, {
                 visualFeatures: ['Adult']
             })).adult;
+            console.log(JSON.stringify(adult));
             if (adult.isAdultContent) {
                 const data = await octokit.issues.createComment({
                     owner: context.issue.owner,
