@@ -29,7 +29,7 @@ async function run() {
             const adult = (await computerVisionClient.analyzeImage(link, {
                 visualFeatures: ['Adult']
             })).adult;
-            if (adult.isGoryContent) {
+            if (adult.isGoryContent || adult.isAdultContent) {
                 const data = await octokit.issues.createComment({
                     owner: context.issue.owner,
                     repo: context.issue.repo,
